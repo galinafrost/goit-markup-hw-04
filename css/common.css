@@ -207,7 +207,15 @@ img {
   letter-spacing: 0.03em;
 }
 
+.lofo-text {
+
+  padding-top: 60px;
+  width: 145px;
+  height: 30px;
+}
+
 .logo-footer {
+
   color: var(--primary-white-color);
 
   font-family: Raleway;
@@ -232,6 +240,7 @@ img {
   display: flex;
  flex-direction: column;
  margin-right: 70px;
+ padding-top: 20px;
 }
 
 .contact-foot .link {
@@ -254,7 +263,6 @@ img {
 
 .footer {
   background-color: #2f303a;
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -268,6 +276,7 @@ img {
 
 .company-social-list {
   display: flex;
+  margin-top: 20px;
 }
 
 .company-social-text {
@@ -283,12 +292,24 @@ img {
 
 .company-social-link {
   display: flex;
+  align-items: center;
   width: 44px;
   height: 44px;
-  background-color: tomato;
+  justify-content: center;
   margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.company-social-link:hover {
+  background-color: #2196f3;
+  border-radius: 50%;
 }
   
 .footer-nav {
   display: flex;
+}
+
+.company-social-icon {
+  fill: #fff
 }

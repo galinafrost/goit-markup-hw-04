@@ -93,6 +93,16 @@
   letter-spacing: 0.03em;
 }
 
+.skill-icons {
+  width: 270px;
+  height: 120px;
+  background-color: rgba(245, 244, 250, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
 /* portfolio */
 
 .portfolio {
@@ -186,7 +196,6 @@
 
 .social-icon {
   fill: #afb1b8;
-
 }
 
 .button {
@@ -222,5 +231,48 @@
 
 .team-name-link:hover .social-icon {
   fill: #fff;
+}
+
+.company-social-link:last-child {
+  margin-right: 0;
+}
+
+/* clients */
+
+.section-client {
+  padding-top: 94px;
+}
+
+.clients {
+  margin-top: 50px;
+}
+
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-list-link {
+  padding: 16px 32px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+
+.clients-list-link:last-child {
+  margin-right: 0;
+}
+
+.clients-list-link:hover {
+  border: 1px solid #2196f3;
+}
+
+.clients-list-item {
+  fill: rgba(175, 177, 184, 1);
+}
+
+.clients-list-item:hover {
+  fill: #2196f3;
 }
 
