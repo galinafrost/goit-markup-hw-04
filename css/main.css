@@ -8,7 +8,6 @@
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  margin-bottom: 93px;
 
   background-color: #2f303a;
 
@@ -52,6 +51,10 @@
 }
 
 /* skill */
+
+.container-skills {
+  margin-top: 94px;
+}
 
 .skill .skill-item {
   margin-right: 30px;
@@ -183,7 +186,7 @@
 
 .social-icon {
   fill: #afb1b8;
-  
+
 }
 
 .button {
@@ -198,8 +201,8 @@
   letter-spacing: 0.06em;
 }
 
-.section-client {
-  margin-top: 94px;
+.team-name-link:last-child {
+  margin-right: 0;
 }
 
 .team-name-link {
@@ -208,8 +211,9 @@
   width: 44px;
   height: 44px;
   justify-content: center;
-  
+  margin-right: 10px;
 }
+
 
 .team-name-link:hover {
   background-color: #2196f3;
@@ -219,3 +223,4 @@
 .team-name-link:hover .social-icon {
   fill: #fff;
 }
+
