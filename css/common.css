@@ -90,7 +90,8 @@ button {
 }
 
 .link {
-  cursor: default;
+  cursor: pointer;
+
 }
 
 a {
@@ -183,6 +184,25 @@ img {
 
 .contact-nav .link.current {
   color: var(--accent-color);
+}
+
+.link-icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tel-icon {
+  margin-right: 10px;
+}
+
+.link-icons {
+  fill: #757575;
+}
+
+.link-icons:hover,
+.link-icons:focus {
+  fill: var(--accent-color);
 }
 
 /* footer */
