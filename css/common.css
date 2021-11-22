@@ -23,6 +23,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .section {
@@ -91,7 +92,6 @@ button {
 
 .link {
   cursor: pointer;
-
 }
 
 a {
@@ -260,7 +260,6 @@ img {
   display: flex;
  flex-direction: column;
  margin-right: 70px;
- padding-top: 20px;
 }
 
 .contact-foot .link {
@@ -284,6 +283,13 @@ img {
 .footer {
   background-color: #2f303a;
   padding-bottom: 60px;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.container-footer {
+  display: flex;
 }
 
 .contact-foot .item {
@@ -292,6 +298,10 @@ img {
 
 .contact-foot .item:last-child {
   margin-bottom: 0;
+}
+
+.company-social {
+  display: inline-block;
 }
 
 .company-social-list {
@@ -328,6 +338,7 @@ img {
   
 .footer-nav {
   display: flex;
+  flex-direction: column;
 }
 
 .company-social-icon {
